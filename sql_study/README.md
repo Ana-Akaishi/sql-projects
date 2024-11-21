@@ -6,7 +6,7 @@ There are plenty of courses and other resources for you to check, but here I'll 
 ## Road Map
 The first issue when we try to learn a new skill is **where do I start?**. So to answer this question, here is the [road map](https://roadmap.sh/sql) I used. This is a great tool to learn, it gives you step by step and free resources to read and learn.
 
-<image src="https://github.com/Ana-Akaishi/sql-projects/blob/main/sql_study/sql_roadmap_roadmapsh.pdf"/>
+<iframe src="https://github.com/Ana-Akaishi/sql-projects/blob/main/sql_study/sql_roadmap_roadmapsh.pdf"/>
 
 ### To read
 For **beginners** that enjoy reading and advance on their own, try [W3Schools](https://www.w3schools.com/sql/default.asp). It covers the basic SQl funcstions and some quick exercises.
