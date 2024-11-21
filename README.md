@@ -35,7 +35,7 @@ csv = pd.read_csv('kaggle_file.csv')
 conn = sqlite3.connect(':memory:')
 
 # Load pandas dataframe in SQL database format
-df.to_sql('table_name', conn, index = False, if_exists = 'replace')
+csv.to_sql('table_name', conn, index = False, if_exists = 'replace')
 
 # Load SQL language on Jupyter
 %load_ext sql
