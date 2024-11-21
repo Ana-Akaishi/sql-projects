@@ -44,7 +44,10 @@ df.to_sql('table_name', conn, index = False, if_exists = 'replace')
 # Make Jupyter accept SQL commands after %% using SQL Magic (from ipython-sql)
 %config SqlMagic.conn = conn
 
-# Now your notebook is ready to use SQL language! Keep in mind that all databases used in the notebook are temporary, and changes won't be saved in the original csv file. Also, since we are using our RAM memory to store this temporary data, make sure to use a light to medium dataset.
+# Now your notebook is ready to use SQL language!
+# Keep in mind that all databases used in the notebook are temporary, changes won't be saved
+# Also, since we are using our RAM memory to store this temporary data
+# Make sure to use a light to medium dataset.
 
 ```
 
