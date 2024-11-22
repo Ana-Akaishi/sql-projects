@@ -20,11 +20,11 @@ SQL Skills:
 ### 2. Customer Behavior
 - What is the average spending per customer?
 - Which customer group (e.g., loyalty vs. non-loyalty) spends the most on average?
-- How many customers made multiple purchases?
+- How many loyal customers in each branch?
+- What are the top 3 products by revenue in each branch?
 
 SQL Skills:
 - Use of aggregate functions like `AVG` and `COUNT`.
-- Filtering with `WHERE`.
 - Mathematical operations in queries.
 
 ### 3. Product Performance
@@ -34,36 +34,22 @@ SQL Skills:
 
 SQL Skills:
 - Aggregations with `SUM` and `GROUP BY`.
-- `ORDER BY` for ranking.
+- `WHERE` for conditioning.
+- `ORDER BY`and `RANK` for ranking.
 
 ### 4. Revenue Trends
 - What is the revenue trend over time (e.g., by day, week, or month)?
 - Which day of the week has the highest sales?
-- Are there seasonal variations in revenue?
 
 SQL Skills:
 - Date manipulation and grouping (`DATE`, `EXTRACT`, `GROUP BY`).
 - Conditions with `CASE`.
 
 ### 5. Operational Insights
-- How many transactions had discounts applied?
-- What is the average revenue per transaction?
-- hat is the distribution of payment methods (e.g., cash, credit card)?
-
-SQL Skills:
-- Filtering with `WHERE` and conditional calculations.
-- Aggregations and `CASE` for categorizing payment methods.
-
-### 6. Branch Comparisons
-- Which branch has the highest average transaction value?
-- What is the product category mix in each branch?
-- Which branch has the most loyal customers (customers with multiple visits)?
-
-SQL Skills:
-- Combining `GROUP` BY and `HAVING`.
-- Use of subqueries for comparisons.
+- What is the Cost of Goods (CoG) per product??
+- What is the network net profit?
+- What is the distribution of payment methods (e.g., cash, credit card)?
 
 ### Stretch Questions (for Intermediate Exploration)
-- What is the profit margin for each product category (if profit data is available)?
+- What is the profit margin for each product category?
 - What are the top 3 products by revenue in each branch?
-- How many customers purchased products from multiple categories in the same transaction?

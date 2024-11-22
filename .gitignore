@@ -1,5 +1,7 @@
 # Projects databases
 /sql_projects/supermarket_sales/supermarket_sales.csv
+/sql_projects/supermarket_sales/supermarket_sales.db
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

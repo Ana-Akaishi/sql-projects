@@ -27,28 +27,34 @@ pip install ipython-sql sqlite3
 import pandas as pd
 import sqlite3
 
-# Load csv file
-csv = pd.read_csv('kaggle_file.csv')
+# Import data
+df = pd.read_csv('kaggle_data.csv')
 
-# Create a connection with SQLite
-## Here I'm creating a temporary database using RAM
-conn = sqlite3.connect(':memory:')
+# Connecting to SQLite3 database
+conn = sqlite3.connect('database_name.db')
 
-# Load pandas dataframe in SQL database format
-csv.to_sql('table_name', conn, index = False, if_exists = 'replace')
+# Transform csv to db. We'll use the 'table_name' in our queries
+df.to_sql('table_name', conn, index=False, if_exists='replace')
 
-# Load SQL language on Jupyter
+# Activate SQL extension
 %load_ext sql
-%sql sqlite:///:memory:
 
-# Make Jupyter accept SQL commands after %% using SQL Magic (from ipython-sql)
-%config SqlMagic.conn = conn
+# Connect SQL Magic (to use SQl commands) to our databse
+%sql sqlite:///database_name.db
 
 # Now your notebook is ready to use SQL language!
-# Keep in mind that all databases used in the notebook are temporary, changes won't be saved
-# Also, since we are using our RAM memory to store this temporary data
-# Make sure to use a light to medium dataset.
 
+```
+If you have issues running SQL commands like:
+
+```
+%%sql
+SELECT * FROM Table
+```
+
+Probably is an error in prettytable package evrsion. To fix it, type this on your terminal:
+```
+pip install prettytable==2.5.0
 ```
 
 ### Educational Resources
