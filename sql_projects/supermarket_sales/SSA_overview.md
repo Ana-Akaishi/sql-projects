@@ -1,4 +1,4 @@
-# Suspermarket Sales Analysis
+# Suspermarket Sales Analysis (SSA)
 This notebook will use SQL to analyse a [supermarket database](https://www.kaggle.com/datasets/lovishbansal123/sales-of-a-supermarket) using branch information, customer data, product data, revenue. 
 
 ## Objectives

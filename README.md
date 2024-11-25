@@ -61,4 +61,8 @@ pip install prettytable==2.5.0
 If you want to know more about SQL and how to learn it, check out my [SQL Study](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_study).
 
 ## SQL Projects
-- [Brazilian Investment Funds Overview](https://github.com/Ana-Akaishi/data-science-projects/tree/main/Brazilian%20Investment%20Funds):  C
+This is the [project folder](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects).
+
+Here a list of each project theme:
+- [Supermarket Sales Analysis](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/supermarket_sales): Retail industry, analyzing branches about general sales, customer behavior, product performance, revenue trends, operational insights.
+- [Movie Review](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/movie_review): Entertainment industry, using different databses to analyse popularity, directors productivity, rating, actor and actresses and TV shows vs Movies.

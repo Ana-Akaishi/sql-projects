@@ -13,4 +13,4 @@ Since I'm using Jupyter to make notes step- by step, this is also a good resourc
 ## Project order
 I'll write down the list of projects, starting from the 'basic/beginner' level and increasing in proficiency:
 
-- [Supermarket Sales](https://github.com/Ana-Akaishi/sql-projects/blob/main/sql_projects/supermarket_sales): Retail industry, analyzing branches financial performance.
+- [Supermarket Sales](https://github.com/Ana-Akaishi/sql-projects/blob/main/sql_projects/supermarket_sales):  Retail industry, analyzing branches about general sales, customer behavior, product performance, revenue trends, operational insights.
