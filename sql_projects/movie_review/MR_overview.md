@@ -40,7 +40,7 @@ SQL Skills:
 - Date manipulation (using startYear and endYear).
 - Aggregation functions (`COUNT()`).
 - Subqueries (for year-over-year comparisons).
-- Sorting and filtering (`GROUP BY`, `HAVING`).
+- Sorting and filtering (`GROUP BY`).
 
 ### 4. Movie Rating Trends
 - What are the top 5 highest-rated movies?
@@ -53,18 +53,7 @@ SQL Skills:
 - Subqueries (for filtering by ratings).
 - Sorting (`ORDER BY`).
 
-### 5. Actor and Role Analysis
-- Who are the most frequent actors in the top-rated movies?
-- What is the average rating of movies featuring actors with more than 10 appearances?
-- Which actors appear across multiple genres?
-
-SQL Skills:
-- Joins (linking title.principals and title.ratings).
-- Aggregation functions (`COUNT()`, `AVG()`).
-- Subqueries (to rank actors by frequency).
-- Grouping (`GROUP BY`) and filtering (`HAVING`).
-
-### 6. TV Series and Movie Comparison
+### 5. TV Series and Movie Comparison
 - What is the average rating of TV series compared to movies?
 - Which TV series has the longest runtime and how does it compare to movies of similar genres?
 - What percentage of releases in the last 5 years were TV series?
