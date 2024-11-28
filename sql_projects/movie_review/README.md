@@ -1,3 +1,5 @@
+![Alt text](https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
 # Movie Review (MR)
 This projectt will dive into the entertainment industry! I'm going to use this [movies](https://developer.imdb.com/non-commercial-datasets/) databases by IMDb. This is an interesting project because I'll be using different databases, each one containing a different type of information about the movie and may contain null values.
 
