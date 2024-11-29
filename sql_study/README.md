@@ -39,15 +39,9 @@ If you want to focus on practicing coding for interview coding questions, I reco
 I recommend to use Chat-GPT to make you a project with databases recomendation and business questions. 
 Here is the prompt I created to help design these questions. You can adjust to your skill level:
 
-`I need you to create a project for [beginner/intermediary/advances] SQL skills. 
-It must contain a free database to use and use [specific skills you want to practice or theme]. 
-Follow this instructions to create the project design:
-
-Create business questions for the following sql project:
-
-# Project overview
-To make my projects, I'm using Chat-GPT to build the basic structure and find free datasets. First, I wrote this prompt to give me the project overview:
- `Chat, give me ideas for a SQL project and a dataset I can use. In each project, show which SQL skills are required and focus on [beginner/intermediary/advanced] SQL skills. Focus on the use of [a set of specific skill you want to practice]. For the datasets, please give me the complete URL, so I can copy and paste it on my browser.`
+ ```
+ Chat, give me ideas for a SQL project and a dataset I can use. In each project, show which SQL skills are required and focus on [beginner/intermediary/advanced] SQL skills. Focus on the use of [a set of specific skill you want to practice]. For the datasets, please give me the complete URL, so I can copy and paste it on my browser.
+ ```
 
  After this prompt, Chat-GPT will give you a list of project ideas in different industries (entertainment, health, finance, retail etc). Select the project you like, and then go to back to CHAT-GPT and use my prompt:
 
