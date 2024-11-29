@@ -17,4 +17,4 @@ I'll write down the list of projects, starting from the 'basic/beginner' level a
 
 - [Movie Review](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/movie_review): Entertainment industry, using different databses to analyse popularity, directors productivity, rating, actor and actresses and TV shows vs Movies. **INTERMEDIARY LEVEL**
 
-- 
+- [Tech Job Posting](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/tech_job_posting): Tech industry, focused on using different datasets to analyze how is tech jobmarket, salaries, job posting and skills. **ADVANCED LEVEL**

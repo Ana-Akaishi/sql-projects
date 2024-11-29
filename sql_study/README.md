@@ -46,6 +46,17 @@ Follow this instructions to create the project design:
 Create business questions for the following sql project:
 
 # Project overview
+To make my projects, I'm using Chat-GPT to build the basic structure and find free datasets. First, I wrote this prompt to give me the project overview:
+ `Chat, give me ideas for a SQL project and a dataset I can use. In each project, show which SQL skills are required and focus on [beginner/intermediary/advanced] SQL skills. Focus on the use of [a set of specific skill you want to practice]. For the datasets, please give me the complete URL, so I can copy and paste it on my browser.`
+
+ After this prompt, Chat-GPT will give you a list of project ideas in different industries (entertainment, health, finance, retail etc). Select the project you like, and then go to back to CHAT-GPT and use my prompt:
+
+ `Chat, create business questions for the following SQL project`
+
+ POST THE PROJECT FROM PREVIOUS PROMPT AND COMPLEMENT WITH THE FOLLOWING PROMPT
+ (if you find the meta data file, you can add it here so the questions will fit your data)
+
+```
 I'll use [DATABASE DESCRIPTION] and follow this structure to make the business questions:
 structure:
 
@@ -68,4 +79,5 @@ Which branch generates the highest revenue?
 How many transactions were made in each branch?
 SQL Skills:
 
-Basic SELECT, SUM, GROUP BY, and ORDER BY.`
+Basic SELECT, SUM, GROUP BY, and ORDER BY.
+```

@@ -1,13 +1,7 @@
 # Projects databases
-/sql_projects/supermarket_sales/supermarket_sales.csv
-/sql_projects/supermarket_sales/supermarket_sales.db
-/sql_projects/movie_review/name.basics.tsv.gz
-/sql_projects/movie_review/title.crew.tsv.gz
-/sql_projects/movie_review/title.episode.tsv.gz
-/sql_projects/movie_review/title.principals.tsv.gz
-/sql_projects/movie_review/title.ratings.tsv.gz
-/sql_projects/movie_review/movie.db
-/sql_projects/movie_review/title.basics.tsv.gz
+*.csv
+*.db
+*.gz
 
 
 # Byte-compiled / optimized / DLL files

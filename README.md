@@ -64,5 +64,6 @@ If you want to know more about SQL and how to learn it, check out my [SQL Study]
 This is the [project folder](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects).
 
 Here a list of each project theme:
-- [Supermarket Sales Analysis](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/supermarket_sales): Retail industry, analyzing branches about general sales, customer behavior, product performance, revenue trends, operational insights.
-- [Movie Review](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/movie_review): Entertainment industry, using different databses to analyse popularity, directors productivity, rating, actor and actresses and TV shows vs Movies.
+- [Supermarket Sales Analysis](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/supermarket_sales): Retail industry, analyzing branches about general sales, customer behavior, product performance, revenue trends, operational insights. **BEGINNER LELVE**
+- [Movie Review](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/movie_review): Entertainment industry, using different databses to analyse popularity, directors productivity, rating, actor and actresses and TV shows vs Movies. **INTERMEDIARY LEVEL**
+- [Tech Job Posting](https://github.com/Ana-Akaishi/sql-projects/tree/main/sql_projects/tech_job_posting): Tech industry, focused on using different datasets to analyze how is tech jobmarket, salaries, job posting and skills. **ADVANCED LEVEL**
