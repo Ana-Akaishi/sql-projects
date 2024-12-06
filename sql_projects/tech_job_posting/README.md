@@ -81,8 +81,22 @@ SQL Skills:
 ---
 
 ## Advanced SQL Project: Data Science Job Market Analysis with Multiple JOINS
+
+These exercises could have been made with `RIGHT JOIN` and `OUTER JOIN`. Due to simulating SQL in JUPYTER, I can't use those JOINS.
+
+The idea of using different JOINs than the default `INNER JOIN` is to keep dataset `NULL` values. And why would we do that? There's important information hidden on those empty data, just need to ask the right questions:
+
 1. LEFT JOIN: Analyzing Missing Data in Job Postings
 - Business Question: What industries have job postings that don't require any skills?
 
-2. FULL OUTER JOIN: Combining Salary and Skill Insights
+2. LEFT JOIN: Combining Salary and Skill Insights
 - Business Question: How do salaries relate to job postings with missing skills?
+
+3. LEFT JOIN: Tracking Data Science Roles Without Benefits
+- Business Question: Which data science job postings do not mention any benefits?
+
+4. LEFT JOIN: Companies Offering No Benefits for Data Roles
+- Business Question: What companies offer data science jobs with no benefits?
+
+5. LEFT JOIN: Combining Data on Salary, Benefits, and Skills
+- Business Question: How do benefits and skills affect salaries in data science roles?
