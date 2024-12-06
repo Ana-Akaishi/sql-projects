@@ -81,35 +81,8 @@ SQL Skills:
 ---
 
 ## Advanced SQL Project: Data Science Job Market Analysis with Multiple JOINS
+1. LEFT JOIN: Analyzing Missing Data in Job Postings
+- Business Question: What industries have job postings that don't require any skills?
 
-### 1. **Salary Trends and Insights**
-   - What is the average salary for data science jobs across different industries?
-   - Which companies offer the highest-paying data science roles?
-   - How do salaries vary by location across all job postings?
-
-   **SQL Skills:**
-   - `INNER JOIN`, `AVG()`, `GROUP BY`, `ORDER BY`, `LEFT JOIN`
-
-### 2. **Skill Demand and Growth**
-   - Which skills are most in demand for data science roles globally?
-   - What skills are associated with the highest-paying data science roles?
-   - How has the demand for Python skills changed over the last 3 years?
-
-   **SQL Skills:**
-   - `LEFT JOIN`, `COUNT()`, `GROUP BY`, `AVG()`, `EXTRACT()`, `INNER JOIN`
-
-### 3. **Company Overview and Job Postings Analysis**
-   - Which companies post the most data science jobs?
-   - How does the company size correlate with the number of job postings?
-   - What industries are the most active in posting data science jobs?
-
-   **SQL Skills:**
-   - `LEFT JOIN`, `COUNT()`, `GROUP BY`, `INNER JOIN`, `ORDER BY`
-
-### 4. **Benefits Analysis for Data Science Jobs**
-   - What benefits are most commonly offered in data science job postings?
-   - Is there a correlation between the number of benefits offered and salary?
-   - Which companies offer the most comprehensive benefits packages?
-
-   **SQL Skills:**
-- `LEFT JOIN`, `COUNT()`, `AVG()`, `GROUP BY`, `INNER JOIN`
+2. FULL OUTER JOIN: Combining Salary and Skill Insights
+- Business Question: How do salaries relate to job postings with missing skills?
